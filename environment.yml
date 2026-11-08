@@ -1,0 +1,20 @@
+name: steel_temperature
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4.6
+  - pandas=3.0.3
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - sqlalchemy=2.0.50
+  - matplotlib=3.10.9
+  - lightgbm=4.6.0
+  - catboost=1.2.10
+  - optuna=4.9.0
+  - pytorch=2.11.0
+  - ipykernel
+  - pip
+  - pip:
+      - tabm==0.0.3
+      - tabpfn==9.2.0
